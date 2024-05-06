@@ -1,0 +1,140 @@
+.nav {
+  background-color: transparent;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  height: 8vh;
+  top: 0;
+  z-index: 3;
+  padding: 0 1rem;
+  backdrop-filter: blur(15x);
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav--menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+}
+
+.nav__ul {
+  display: flex;
+  column-gap: 2em;
+  list-style-type: none;
+  color: var(--text);
+  text-shadow: 0 0 5px var(--colorHover);
+  font-size: large;
+}
+
+.btn:hover{
+  cursor: pointer;
+  display: flex;
+  backdrop-filter: blur(10px); 
+  width: 100%;
+  justify-content: flex-end;
+  height: 100%;
+  align-items: center;
+}
+
+.nav__li {
+  cursor: pointer;
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.nav__li>a {
+  background-color:var(--colorNav);
+  color: var(--text);
+  border-radius: 8px;
+  margin: 0 10px;
+  padding: 3px 10px;
+  text-decoration: none;
+  box-shadow: 0 0 10px var(--colorHover);
+}
+
+.nav__li:active {
+  transform: scale(0.8);
+}
+
+.nav>span {
+  display: none;
+  background-color: var(--colorNav);
+  display:inline-block;
+}
+
+a:hover{
+  color: var(--colorHover);
+}
+
+.chekBtn{
+  display:none;
+}
+
+
+@media (max-width:950px) {
+  .nav {
+    backdrop-filter: none;
+    padding: 0;
+  }
+
+  .nav>span {
+    display: block;
+    font-size: 40px;
+    cursor: pointer;
+    backdrop-filter: blur(15px);
+    width: 100%;
+    padding: 0%;
+    text-align: right;
+  }
+
+  .nav--menu {
+    position: fixed;
+    flex-direction: column;
+    top: 6vh;
+    left: 0;
+    justify-content: flex-start;
+    align-items: flex-end;
+    z-index: 3;
+    backdrop-filter: blur(15px);
+    height: 94vh;
+    max-height: 564px;
+    overflow-y: auto;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .transalate--menu {
+    transform: translateX(1000px);
+  }
+
+  .nav__ul {
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+  }
+
+  .nav__ul:nth-child(1) {
+    order: 2;
+    flex-direction: row;
+    border-top: 2px solid var(--text);
+    width: 100%;
+    align-items: center;
+  }
+
+  .nav__li>a,
+  .nav__li>span {
+    font-size: 1.5rem;
+  }
+
+  .nav__li {
+    text-align: right;
+    padding: 20px 0;
+  }
+
+  .chekBtn{
+    margin: 1rem;
+    display:inline-flex;
+  }
+
+}

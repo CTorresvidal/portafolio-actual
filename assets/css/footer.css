@@ -1,0 +1,89 @@
+.footer{
+  background-color: var(--colorNav);
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+}
+
+.span{
+  padding: 20px;
+  color: var(--text);
+  margin: 40px;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  text-align: center;
+  gap: 10px;
+}
+
+.span>p{
+  margin: 20px;
+  font-size: 20px;
+  text-shadow: 0 0 5px var(--colorHover);
+}
+
+#one{
+  font-size: 1.5rem;
+  width: 400px;
+}
+
+#two{
+  font-size: 2.2rem;
+}
+
+#two>p{
+  font-style: italic;
+}
+
+#three{
+  font-size: 1.6rem;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 80px;
+}
+
+.bx bx-map{
+  font-style: var(--colorNav);
+}
+.bx bxl-linkedin-square{
+  font-style: var(--colorNav);
+}
+.bx bxl-whatsapp{
+  font-style: var(--colorNav);
+}
+.bx bxl-github{
+  font-style: var(--colorNav);
+}
+
+@media (max-width:550px) {
+  .footer {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+  }
+  .span{
+    width: 100%;
+  }
+}
+
+.bx bx-map{
+  font-style: var(--colorNav);
+}
+.bx bxl-linkedin-square{
+  font-style: var(--colorNav);
+}
+.bx bxl-whatsapp{
+  font-style: var(--colorNav);
+}
+.bx bxl-github{
+  font-style: var(--colorNav);
+}

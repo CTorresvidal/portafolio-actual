@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carlos Arturo Torres</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/img/portafolio.png"
+      type="image/x-icon"
+    />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/nav.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/slider.css" />
+    <link rel="stylesheet" href="./assets/css/reviews.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/form.css" />
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <meta name="author" content="Carlos Arturo Torres" />
+    <meta
+      name="description"
+      content="Desarrollador Full Stack, especializado en construcción de interfaces de usuarios con React y creación de API Rest con Node.js"
+    />
+
+    <meta
+      name="keywords"
+      content="Full Stack Developer, Desarrollador Full Stack,JavaScript, CSS,HTML, REACT,GIT, Node.js, Express, SQL, Postgres, programador con experiencia, web Developer"
+    />
+
+    <!-- Open Grap Protocol ( OGP) , es un conjunnto de etiquetas que nos permiten controlar mejor como compartimos nuestras paginas en redes sociales -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Carlos Arturo Torres. Full Stack Web Developer"
+    />
+    <meta
+      property="og:description"
+      content="Desarrollador Full Stack, especializado en construcción de interfaces de usuarios con React y creación de API Rest con Node.js #FullStackDevelopers #DesarrolladorWeb #developers"
+    />
+    <meta property="og:url" content="URL_DEL_PORTAFOLIO" />
+    <meta property="og:image" content="URL_DE_LA_IMAGEN" />
+
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+      href="tel:+573147914981"
+      href="mailto:carlostorres2912@yahoo.com"
+      href="https://wa.me/+573147914981"
+            
+    />
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </head>
+
+  <body class="body body--ligth body--dark">
+    <div id="progress"></div>
+    <nav class="nav">
+      <label class="chekBtn">
+        <span id="menu" class="material-symbols-outlined"> menu </span>
+      </label>
+      <div class="nav--menu transalate--menu">
+        <ul class="nav__ul">
+          <li class="nav__li">
+            <span id="btn-translate" class="btn material-symbols-outlined">
+              translate
+            </span>
+          </li>
+          <li class="nav__li">
+            <span id="toggleModeBtn" class="btn material-symbols-outlined">
+              <!--dark_mode -->
+              light_mode
+            </span>
+          </li>
+        </ul>
+
+        <ul class="nav__ul">
+          <li class="nav__li">
+            <a href="#home" data-translate-es="Inicio" data-translate-en="Home"
+              >Inicio</a
+            >
+          </li>
+          <li class="nav__li">
+            <a
+              href="#aboutMe"
+              data-translate-es="Sobre mí"
+              data-translate-en="About Me"
+              >Sobre mí</a
+            >
+          </li>
+          <li class="nav__li">
+            <a
+              href="#technologies"
+              data-translate-es="Tecnologías"
+              data-translate-en="Technologies"
+              >Tecnologías</a
+            >
+          </li>
+          <li class="nav__li">
+            <a
+              href="#projects"
+              data-translate-es="Proyectos"
+              data-translate-en="Projects"
+              >Proyectos</a
+            >
+          </li>
+          <li class="nav__li">
+            <a
+              href="#reviews"
+              data-translate-es="Reseñas"
+              data-translate-en="Reviews"
+              >Reseñas</a
+            >
+          </li>
+          <li class="nav__li">
+            <a
+              href="#contacMe"
+              data-translate-es="Contáctame"
+              data-translate-en="Contac Me"
+              >Contáctame</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header id="home" class="header">
+      <h1 class="header__h1">Carlos Arturo Torres</h1>
+      <h2 class="header__h2" data-translate-es="Desarrollador Web Full Stack" data-translate-en="Developer Web Full Stack">
+        Desarrollador Web Full Stack</h2>
+
+      <div class="div--contact">
+        <a id="contactMeBtn" class="div__a"><span data-translate-es="Contáctame" data-translate-en=" Contact me">Contáctame</span>
+          <span class="material-symbols-outlined"> arrow_forward_ios </span>
+        </a>
+        <a class="div__a" download href="./assets/cv/cv_es.png" data-translate-es="Descargar" data-translate-en="Download"
+          id="downloadCV">Descargar</a>
+      </div>
+
+      <div class="morph"></div>
+    </header>
+    <main>
+      <section>
+        <article id="aboutMe">
+          <h2 data-translate-es="Sobre Mí" data-translate-en="AboutMe">Sobre Mí</h2>
+          <p data-translate-es="En mí vas a encontrar a una persona íntegra con un objetivo específico, el cual es desarrollar progresivamente mis habilidades técnicas sin dejar a un lado las habilidades blandas, soy una persona proactiva con determinación y dispuesto a afrontar nuevos retos que me permitan crecer en todos los aspectos de mi vida." data-translate-en="In me you will find a complete person with a goal specific, which is to progressively develop my skills techniques without leaving aside soft skills, I am a proactive person with determination and willing to face new challenges that allow me to grow in all aspects of my life.">"En mí vas a encontrar a una persona íntegra con un objetivo específico, el cual es desarrollar progresivamente mis habilidades técnicas sin dejar a un lado las habilidades blandas, soy una persona proactiva con determinación y dispuesto a afrontar nuevos retos que me permitan crecer en todos los aspectos de mi vida."</p>
+          <h3 class="aboutMe__h3" data-translate-es="¿Porqué soy ideal para tu equipo?" data-translate-en="Why am I ideal for your team?"
+          >¿Porqué soy ideal para tu equipo?</h3>
+          <ul class="aboutMe__ul"><li class="aboutMe__li"><i class="qualities" data-translate-es="Facilidad de aprendizaje" data-translate-en="Ease of learning">Facilidad de aprendizaje</i>
+              <span data-translate-es="Siempre me he caracterizado como una persona que aprende los temas de importancia en un tiempo muy reducido, lo cual se transmite en eficiencia y productividad." data-translate-en="I have always characterized myself as a person who learns important topics in a very short time, which is transmitted in efficiency and productivity.">Siempre me he caracterizado como una persona que aprende los temas de importancia en un tiempo muy reducido, lo cual se transmite en eficiencia y productividad.</span>
+            </li>
+            <li class="aboutMe__li"><i class="qualities" data-translate-es="Respeto" data-translate-en="I respect">Respeto</i>
+              <span data-translate-es="Parto siempre de la idea de que el respeto es la base fundamental para el funcionamiento de la sociedad, esto nos permite convivir en cualquier ambiente social y laboral que nos encontremos respetando a los individuos en su forma de pensar y de actuar." data-translate-en="I always start from the idea that respect is the fundamental basis for the functioning of society, this allows us to coexist in any social and work environment that we find ourselves, respecting individuals in their way of thinking and acting.">Parto siempre de la idea de que el respeto es la base fundamental para el funcionamiento de la sociedad, esto nos permite convivir en cualquier ambiente social y laboral que nos encontremos respetando a los individuos en su forma de pensar y de actuar.</span>
+            </li>
+            <li class="aboutMe__li"><i class="qualities" data-translate-es="Compromiso" data-translate-en="Commitment">Compromiso</i>
+              <span data-translate-es="Siempre estoy dispuesto a dar lo mejor de mí en pro de lograr los objetivos establecidos dentro de cualquier proyecto, dando prioridad a los logros grupales buscando siempre los mejores resultados."             data-translate-en="I am always willing to give my best in order to achieve the established objectives within any project, giving priority to group achievements, always seeking the best results.">Siempre estoy dispuesto a dar lo mejor de mí en pro de lograr
+                los objetivos establecidos dentro de cualquier proyecto, dando prioridad a los logros grupales buscando siempre los mejores
+                resultados.</span>
+            </li>
+            <li class="aboutMe__li"><i class="qualities" data-translate-es="Recursividad" data-translate-en="Recursion">Recursividad</i>
+              <span data-translate-es="Me destaco por ser el tipo de persona que si tiene un reto que impide avanzar en la consecución de un objetivo, buscara de alguna manera resolver la situación para poder seguir avanzando y llegar a la culminación de lo propuesto."
+                data-translate-en="I stand out for being the type of person who, if he or she has a challenge that prevents progress in achieving an objective, will seek to somehow resolve the situation in order to continue moving forward and reach the culmination of what is proposed.">Me destaco por ser el tipo de persona que si tiene un reto que impide avanzar en la consecución de un objetivo, buscara de alguna manera resolver la situación para poder seguir avanzando y llegar a la culminación de lo propuesto.</span>
+            </li>
+          </ul>
+        </article>
+
+        <article class="section" id="technologies"><span class="card" ><h2 data-translate-es="Tecnologías" data-translate-en="Technologies" >Tecnologías</h2></span>
+          <span class="card"></span>
+          <span class="card"></span>
+          <span class="card"></span>
+          <span class="card"></span>
+          <span class="card"></span>
+          <span class="card"></span>
+        </article>
+      </section>
+
+      <section id="projects">
+
+        <h2 class="section__h2" data-translate-es="Proyectos" data-translate-en="Projects">Proyectos</h2>
+
+        <article class='article'>
+
+        <button class='article__button left'>
+          <i class='bx bx-left-arrow-alt'></i>
+        </button>
+
+        <ul class='article__ul' id="conteiner_projects">
+          <li class='article__li'>
+            <img
+              src='./assets/img/Galleta de la Fortuna.png'
+              alt='' class='article__img'>
+            <h3 class='article__h3' data-translate-es="Galleta de la Fortuna" data-translate-en="Fortune cookie">Galleta de la Fortuna</h3>            
+            <p class='article__p' data-translate-es="Este fue nuestro primer proyecto llamado galleta de la fortuna, el cual le permite al usuario obtener una frase motivadora para seguir adelante en busca de sus sueños." data-translate-en="This was our first project called fortune cookie, which allows the user to obtain a motivating phrase to move forward in search of their dreams."> Este fue nuestro primer proyecto llamado galleta de la fortuna, el cual le permite al usuario obtener una frase motivadora para seguir adelante en busca de sus sueños.  </p>            
+            <h4 class='article__h4'>JavaScript, HTML, CSS, ReactJs</h4>
+          </li>
+
+          <li class='article__li'>
+            <img
+              src='./assets/img/Weather App.png'
+              alt='' class='article__img'>
+            <h3 class='article__h3' data-translate-es="Aplicación del clima" data-translate-en="Weather App">Aplicación del clima</h3>
+            <p class='article__p' data-translate-es="Segundo proyecto llamado Aplicación del clima, el cual le permite al usuario conocer el estado del clima según su ubicación actual." data-translate-en="Second project called Weather Application, which allows the user to know the weather status according to their current location."> Segundo proyecto llamado Aplicación del clima, el cual le permite al usuario conocer el estado del clima según su ubicación actual. </p>
+            <h4 class='article__h4'>JavaScript, HTML, CSS, ReactJs</h4>
+          </li>
+
+          <li class='article__li'>
+            <img
+              src='./assets/img/Rick and Morty.png'
+              alt='' class='article__img'>
+            <h3 class='article__h3' data-translate-es="Rick and Morty" data-translate-en="Rick and Morty">Rick and Morty</h3>
+            <p class='article__p' data-translate-es="Este es otro proyecto llamado Rick and Morty, basado en la famosa serie de televisión, en el cual el usuario puede conocer la cantidad de habitantes en una localización específica." data-translate-en="This is another project called Rick and Morty, based on the famous television series, in which the user can know the number of inhabitants in a specific location."> Este es otro proyecto llamado Rick and Morty, basado en la famosa serie de televisión, en el cual el usuario puede conocer la cantidad de habitantes en una localización específica. </p>
+            <h4 class='article__h4'>JavaScript, HTML, CSS, ReactJs</h4>
+          </li>
+
+          <li class='article__li'>
+            <img
+              src='./assets/img/Pokedex.png'
+              alt='' class='article__img'>
+            <h3 class='article__h3' data-translate-es="Pokedex" data-translate-en="Pokedex">Pokedex</h3>
+            <p class='article__p' data-translate-es="Este proyecto es un poco más elaborado y desarrollado con base en el clásico programa de TV de Pokémon. En esta app el usuario se puede registrar como entrenador de Pokémon y tiene a su disposición una gran cantidad de Pokémon para elegir." data-translate-en="This project is a little more elaborate and developed based on the classic Pokémon TV show. In this app the user can register as a Pokémon trainer and has a large number of Pokémon at their disposal to choose from."> Este proyecto es un poco más elaborado y desarrollado con base en el clásico programa de TV de Pokémon. En esta app el usuario se puede registrar como entrenador de Pokémon y tiene a su disposición una gran cantidad de Pokémon para elegir.  </p>
+            <h4 class='article__h4'>JavaScript, HTML, CSS, ReactJs</h4>
+          </li>
+
+          <li class='article__li'>
+            <img
+              src='./assets/img/Booking App.png'
+              alt='' class='article__img'>
+            <h3 class='article__h3' data-translate-es="Booking App" data-translate-en="Booking App">Booking App</h3>
+            <p class='article__p' data-translate-es="Este proyecto es sin lugar a dudas el mejor desarrollo hasta el momento, debido a que es una aplicación FullStack la cual está elaborada tanto desde el Front-end como en desde el Back-end, la cual lo convierte en una aplicación muy completa." data-translate-en="This project is without a doubt the best development so far, because it is a FullStack application which is developed from both the Front-end and the Back-end, which makes it a very complete application."> Este proyecto es sin lugar a dudas el mejor desarrollo hasta el momento, debido a que es una aplicación FullStack la cual está elaborada tanto desde el Front-end como en desde el Back-end, la cual lo convierte en una aplicación muy completa.  </p>
+            <h4 class='article__h4'>JavaScript, HTML, CSS, ReactJs, NodeJs</h4>
+          </li>
+        </ul>
+
+        <button class="article__button rigth">
+          <i class='bx bx-right-arrow-alt'></i>
+        </button>
+
+        </article>
+
+      </section>
+
+      <section id="reviews" class="section section--reviws ">
+        <h2 data-translate-en="Reviews" data-translate-es="Reseñas" class="section__h2">Reseñas</h2>
+        <ul class="ul--review" id="reviews-list">
+          <li class='review-card'>
+            <img src="./assets/img/Reseñas 1.jpg" alt=""/>
+            <div class="review-details">
+              <h3>Ignacio Florez</h3>
+              <p class="review-profession"  data-translate-es="Desarrollador Web FullStack" data-translate-en="FullStack Web Developer">Desarrollador Web FullStack</p>
+              <p class="review-message" data-translate-es="Trabajar en este proyecto con Carlos fue una experiencia muy enriquecedora en la cual logramos un resultado excelente desde el punto de vista técnico. Es de resaltar que el camino por recorrer es demasiado extenso y el crecimiento es ilimitado." data-translate-en="Working on this project with Carlos was a very enriching experience in which we achieved an excellent result from a technical point of view. It should be noted that the road ahead is too long and the growth is unlimited." >Trabajar en este proyecto con Carlos fue una experiencia muy enriquecedora en la cual logramos un resultado excelente desde el punto de vista técnico. Es de resaltar que el camino por recorrer es demasiado extenso y el crecimiento es ilimitado.</p>
+              <!-- <div class="review-rating">"★".repeat(4)</div> -->
+            </div>
+          </li>
+
+          <li class='review-card'>
+            <img src="./assets/img/Reseñas 2.jpg" alt=""/>
+            <div class="review-details">
+              <h3>José Luis Gutiérrez</h3>
+              <p class="review-profession" data-translate-es="Desarrollador Front-End" data-translate-en="Front-End Developer" >Desarrollador Front-End</p>
+              <p class="review-message" data-translate-es="Qué gran experiencia poder colaborar en este equipo de trabajo, es gratificante poder compartir con personas maravillosas y aportar en el logro de los objetivos establecidos. Definitivamente, volvería a participar en proyectos similares." data-translate-en="What a great experience to be able to collaborate in this work team, it is gratifying to be able to share with wonderful people and contribute to achieving the established objectives. I would definitely participate in similar projects again.">Qué gran experiencia poder colaborar en este equipo de trabajo, es gratificante poder compartir con personas maravillosas y aportar en el logro de los objetivos establecidos. Definitivamente, volvería a participar en proyectos similares.</p>
+              <!-- <div class="review-rating">"★".repeat(4)</div> -->
+            </div>
+          </li>
+
+          <li class='review-card'>
+            <img src="./assets/img/Reseñas 3.jpg" alt=""/>
+            <div class="review-details">
+              <h3>Fernando Arteaga</h3>
+              <p class="review-profession" data-translate-es="Desarrollador Web Junior" data-translate-en="Junior Web Developer" >Desarrollador Web Junior</p>
+              <p class="review-message" data-translate-es="Fue una verdadera satisfacción compartir conocimientos y adquirir nuevos junto a este gran equipo. Las tecnologías aplicadas están en constante actualización, lo que nos permitirá poder crecer constantemente en este mundo del desarrollo web." data-translate-en="It was a true satisfaction to share knowledge and acquire new ones with this great team. The technologies applied are constantly updated, which will allow us to constantly grow in this world of web development." >Fue una verdadera satisfacción compartir conocimientos y adquirir nuevos junto a este gran equipo. Las tecnologías aplicadas están en constante actualización, lo que nos permitirá poder crecer constantemente en este mundo del desarrollo web.</p>
+              <!-- <div class="review-rating">"★".repeat(4)</div> -->
+            </div>
+          </li>
+
+          <li class='review-card'>
+            <img src="./assets/img/Reseñas 4.jpg" alt=""/>
+            <div class="review-details">
+              <h3>Jessica Klauss</h3>
+              <p class="review-profession" data-translate-es="Desarrolladora Web FullStack" data-translate-en="FullStack Web Developer" >Desarrolladora Web FullStack</p>
+              <p class="review-message" data-translate-es="Participar en este equipo de desarrolladores ha sido para mí una experiencia muy valiosa. Fue muy positivo desde todos los puntos de vista posibles, todos crecimos personalmente y técnicamente, qué bueno seguir trabajando en equipo en diferentes proyectos." data-translate-en="Participating in this team of developers has been a very valuable experience for me. It was very positive from every possible point of view, we all grew personally and technically, it was good to continue working as a team on different projects.">Participar en este equipo de desarrolladores ha sido para mí una experiencia muy valiosa. Fue muy positivo desde todos los puntos de vista posibles, todos crecimos personalmente y técnicamente, qué bueno seguir trabajando en equipo en diferentes proyectos.</p>
+              <!-- <div class="review-rating">"★".repeat(4)</div> -->
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <article id="contacMe">
+          <h2 data-translate-es="Contáctame" data-translate-en="Contact Me">Contáctame</h2>
+          <p data-translate-es="Me puedes contactar por alguno de los siguientes canales..." data-translate-en="You can contact me through one of these channels...">Me puedes contactar por uno de estos canales...</p>
+          <div class="contacto">
+            <a class="contacto__a" href="tel:+573147914981"><i class="bx bx-phone"></i><span data-translate-es="Llámame" data-translate-en="Call me">Llámame</span></a>
+            <a class="contacto__a" href="mailto:carlostorres2912@yahoo.com"><i class="bx bxl-gmail"></i><span data-translate-es="Correo" data-translate-en="Mail">Correo</span></a>
+            <a class="contacto__a" href="https://wa.me/+573147914981"><i class="bx bxl-whatsapp"></i><span>Whatssap</span></a>
+            <a class="contacto__a" href="https://www.linkedin.com/in/carlos-arturo-torres-vidal-4354a8299/"><i class="bx bxl-linkedin"></i><span>LinkedIn</span></a>
+            <a class="contacto__a" href="https://github.com/CTorresvidal" ><i class="bx bxl-github"></i><span>Github</span></a>
+          </div>
+        </article>
+      </section>      
+
+    </main>
+    <footer class="footer">
+      <span class="span" id="one" >
+        <i class='bx bx-map' style='color:var(--colorHover)'></i>  
+        <h4 > Santander Cauca - Colombia <h5 data-translate-en="@ Copyrigth December 2023" data-translate-es="@ Copyrigth Diciembre 2023"> @ Copyrigth Diciembre 2023</h5>  </h4>       
+      </span>
+      
+      <span class="span" id="two">Carlos Arturo Torres Vidal <p data-translate-es="Soy una persona adquiriendo nuevos conocimientos en este mundo del Desarrollo Web." data-translate-en="I am a person acquiring new knowledge in this world of Web Development.">"Soy una persona adquiriendo nuevos conocimientos en este mundo del Desarrollo Web."</p></span>
+
+      <span class="span" id="three">
+        <i class='bx bxl-linkedin-square' style='color:var(--colorHover)'></i>
+        <i class='bx bxl-whatsapp' style='color:var(--colorHover)'></i>
+        <i class='bx bxl-github' style='color:var(--colorHover)' ></i>
+        <h4 data-translate-es="Sígueme en mis Redes Sociales" data-translate-en="Follow me on my Social Networks">Sígueme en mis Redes Sociales</h4>   
+      </span>
+    </footer>
+
+    <dialog id='dialog' class="dialog">
+      <button class="dialog__button" id="close_button">
+        <span class="material-symbols-outlined">
+          close
+        </span>
+      </button>
+  
+      <form id="form" class="form--conteiner" method="post">
+  
+        <label for="name" data-translate-en="Name:" data-translate-es="Nombre:" class="form__label">
+          Nombre:
+        </label>
+        <input type="text" id="name" name="name" required class="form__input">
+  
+  
+        <label for="email" data-translate-en="Email:" data-translate-es="Correo electronico:" class="form__label">
+          Correo electronico:
+        </label>
+        <input type="email" id="email" name="email" required class="form__input">
+  
+  
+        <label for="phone" data-translate-en="Phone:" data-translate-es="Teléfono:" class="form__label">
+          Teléfono:
+        </label>
+        <input type="tel" id="phone" name="phone" required class="form__input">
+  
+  
+        <label for="message" data-translate-en="Message:" data-translate-es="Mensaje:" class="form__label">
+          Mensaje:
+        </label>
+  
+        <textarea type="text" id="message" name="message" required class="form__input form__area"> </textarea>
+  
+        <button id="btn-send" type="submit" class="form__button" data-translate-en="Send"
+          data-translate-es="Enviar">Enviar</button>
+  
+      </form>
+    </dialog>
+
+    
+    <script src="./assets/js/changeMode.js"></script>
+    <script src="./assets/js/changeLanguage.js"></script>
+    <script src="./assets/js/responsiveMenu.js"></script>
+    <script src="./assets/js/progressBar.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/reviews.js"></script>
+    <script src="./assets/js/promise.js"></script>
+    <script src="./assets/js/form.js"></script>
+  </body>
+</html>
